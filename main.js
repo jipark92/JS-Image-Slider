@@ -131,19 +131,19 @@ const imageSlider = (() => {
             btn2.style.color = "black";
             btn3.style.color = "red";
             btn4.style.color = "black";
-            btn5.style.color = "black;"
+            btn5.style.color = "black"
         } else if (imageNumber === 3){
             btn1.style.color = "black";
             btn2.style.color = "black";
             btn3.style.color = "black";
-            btn4.style.color = "red"
+            btn4.style.color = "red";
             btn5.style.color = "black"
         } else if (imageNumber === 4){
             btn1.style.color = "black";
             btn2.style.color = "black";
             btn3.style.color = "black";
             btn4.style.color = "black";
-            btn5.style.color = "red"
+            btn5.style.color = "red";
         }
     }
     colorNavigation()
@@ -165,7 +165,7 @@ const imageSlider = (() => {
             btn2.style.color = "black";
             btn3.style.color = "black";
             btn4.style.color = "black";
-            btn5.style.color = "black;"
+            btn5.style.color = "black";
             imageNumber = 0;
         })
         btn2.addEventListener('click',()=>{
@@ -184,7 +184,7 @@ const imageSlider = (() => {
             btn2.style.color = "red";
             btn3.style.color = "black";
             btn4.style.color = "black";
-            btn5.style.color = "black;"
+            btn5.style.color = "black";
             imageNumber = 1;
         })
         btn3.addEventListener('click',()=>{
@@ -203,7 +203,7 @@ const imageSlider = (() => {
             btn2.style.color = "black";
             btn3.style.color = "red";
             btn4.style.color = "black";
-            btn5.style.color = "black;"
+            btn5.style.color = "black";
             imageNumber = 2;
         })
         btn4.addEventListener('click',()=>{
@@ -221,7 +221,7 @@ const imageSlider = (() => {
             btn1.style.color = "black";
             btn2.style.color = "black";
             btn3.style.color = "black";
-            btn4.style.color = "red"
+            btn4.style.color = "red";
             btn5.style.color = "black"
             imageNumber = 3;
         })
@@ -241,7 +241,7 @@ const imageSlider = (() => {
             btn2.style.color = "black";
             btn3.style.color = "black";
             btn4.style.color = "black";
-            btn5.style.color = "red"
+            btn5.style.color = "red";
             imageNumber = 4;
             console.log(imageNumber)
         })
