@@ -27,7 +27,7 @@ body {
     display: flex;
     height: 500px;
     width: 340px;
-    /* overflow-x: scroll; */
+    overflow-x: scroll;
     /* overflow: hidden; */
 }
 
@@ -67,7 +67,6 @@ body {
     border: none;
     background-color: #3EECAC;
     margin-left: 1rem;
-
 }
 
 .prev-btn:hover {
@@ -79,8 +78,13 @@ body {
 }
 
 .slider-indicator {
-    border: 1px solid black;
     display: flex;
     justify-content: space-evenly;
     width: 15%;
+}
+
+.slider-indicator button {
+    background: none;
+    border: none;
+    font-size: 1.1rem;
 }
